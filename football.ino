@@ -17,7 +17,10 @@ LedP10 myled;
 //const int buttonPin = 2;
 //const int buttonPin2 = 5;
 
-int mpin=0;
+int brightness=255; // value could be from 0 to 255
+
+
+//int mpin=0;
 //int mpin2=1;
 int s=0;
 int m=0;
@@ -25,7 +28,9 @@ void setup()
 { 
    // pinMode(buttonPin, INPUT);
     //pinMode(buttonPin2, INPUT);
-    
+ 
+    myled.setbrightness(brightness);      //set brigthness
+ 
     myled.init(3,4,8,9 ,2);
     myled.showmsg_single_scroll("WELCOME",1,3,0);
     delay(2000);
