@@ -16,8 +16,10 @@
 LedP10 myled;
 const int buttonPin = 2;
 //const int buttonPin2 = 5;
-int brightness=255;
-int mpin=0;
+
+int brightness=255; // value could be from 0 to 255
+
+int mpin=0;  //input pin initial vlaue
 //int mpin2=1;
 int s=0;
 int m=0;
