@@ -8,7 +8,25 @@ football_twoHalfs.ino code could be used to put up two halfs of the match . The 
 
 
 # P10 library
-use the library from this link http://www.electroons.com/blog/ledp10-arduino-library-for-p10-led-display-panels/
+use the upto date library from this link http://www.electroons.com/blog/ledp10-arduino-library-for-p10-led-display-panels/
 the details of how to instal and use the P10 library are given in detail in the above link
 
-This code repo is powered by MOTIFY.IN
+ Library features:
+Can drive up to 320×16 pixels (10 Panels connected in cascade)
+Supports dual line display, i.e. one panel divided into two.
+Supports dynamic screen refresh. You can program to display dynamic content on the panels.
+Supports different scroll speeds.
+Static and scrolling text mode. Can switch from one to another at run time.
+Supports only text based content right now.
+256 step Brightness control.
+
+Installation :
+Unzip the LedP10 archive inside any directory on your machine.
+Read the readme Install file.
+Copy LedP10 folder into /Arduino/libraries of your arduino installation.
+Open arduino IDE. (You need to reopen it after installing the LedP10 library).
+In Arduino IDE, goto File > Examples > LedP10
+You will find a few example program to demonstrate the usage of our library.
+Build your own project by modifying these examples in the way you want.
+
+# This code repo is powered by MOTIFY.IN
