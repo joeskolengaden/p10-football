@@ -11,7 +11,7 @@ football_twoHalfs.ino code could be used to put up two halfs of the match . The 
 use the upto date library from this link http://www.electroons.com/blog/ledp10-arduino-library-for-p10-led-display-panels/
 the details of how to instal and use the P10 library are given in detail in the above link
 
- Library features:
+## Library features:
  
 Can drive up to 320×16 pixels (10 Panels connected in cascade)
 
@@ -27,7 +27,7 @@ Supports only text based content right now.
 
 256 step Brightness control.
 
-Installation :
+## Installation :
 
 Unzip the LedP10 archive inside any directory on your machine.
 
