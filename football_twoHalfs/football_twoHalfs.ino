@@ -72,7 +72,7 @@ void loop() {
             
 
   myled.showmsg_single_static(msg,0);
-   mpin = digitalRead(buttonPin);
+  // mpin = digitalRead(buttonPin);
   
   s=s+1;
   delay(880);
