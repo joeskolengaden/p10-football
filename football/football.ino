@@ -1,4 +1,9 @@
- /*This example illustrates two user funcions of LedP10 library
+ // this is a football timmer that works with p10 non-smd LED pannels and controlled by an arduino
+
+
+// the below code is reffered from p10 library availble in github for arduino
+
+/*This example illustrates two user funcions of LedP10 library
   *First function-showmsg_single_scroll is for scroling of single message on P10 panel with 4 arguments which are message, no. of times of message scrolling, speed and font.
   *for message, pointer to a character string can be passed. For continuously running the message, INF can be passed in second argument, spped can be in range of 0-30, 
    and font can be 0 or 1 as two type of fonts are currently supported for full screen messages. 
