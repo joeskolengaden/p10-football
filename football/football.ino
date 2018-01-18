@@ -14,67 +14,50 @@
 #include <String.h>
 
 LedP10 myled;
-//const int buttonPin = 2;
-//const int buttonPin2 = 5;
 
-int brightness=255; // value could be from 0 to 255
+int brightness=255; // brightness value could be from 0 to 255
 
 
-//int mpin=0;
-//int mpin2=1;
-int s=0;
-int m=0;
+int s=0;  // variable for seconds
+int m=0;  // variable for minutes
+
 void setup() 
 { 
-   // pinMode(buttonPin, INPUT);
-    //pinMode(buttonPin2, INPUT);
- 
+ delay(3000);   // safety delay
+
     myled.setbrightness(brightness);      //set brigthness
  
-    myled.init(3,4,8,9 ,2);
-   // myled.showmsg_single_scroll("WELCOME",1,3,0);
+    myled.init(3,4,8,9 ,2);   // p10 pin configuration .... please refer the img
+ // myled.showmsg_single_scroll("WELCOME",1,3,0);  // welcome scroll text
     delay(2000);
     
-    // mpin = digitalRead(buttonPin);
-    // mpin2 = digitalRead(buttonPin2);
 
-    //input to select minute to be 0 or 30
     
-    //if(mpin==LOW)
-    //{
      
-         m=0;
+         m=0;  // set stating minute to 0
                    
-          myled.showmsg_single_scroll("Let's FOOTBALL",1,3,0);
-   // }
-   // else //(mpin==HIGH)
-   // { m=30;
+          myled.showmsg_single_scroll("    Let's FOOTBALL   ",1,3,0);   // intro msg
    
-   //       myled.showmsg_single_scroll("Second Half",1,3,0);
      
 
-   // }
-delay(3000);
-    
-    //myled.showmsg_double_scroll("this is double led test1","this is double led test2",10,INF,3,1,0); 
+    delay(3000);   //sefety delay 
+
 }
 
 void loop() {
   
-  if(s==60)
+  if(s==60)  //increment variable m when variable s=60  
   {
-    m=m+1;
-    s=0;
+    m=m+1;  
+    s=0;     // reset variable s
   }
   char msg[10];
-  sprintf(msg, " %d :: %d", m, s);
+  sprintf(msg, " %d :: %d", m, s);  // join all variable together into a string named msg
   
-  //char timer[7] = m2 + ':' + s2;
             
 
-  myled.showmsg_single_static(msg,0);
-   //mpin = digitalRead(buttonPin);
+  myled.showmsg_single_static(msg,0); // display the msg
   
-  s=s+1;
-  delay(880);
+  s=s+1;   // increment second's variable s
+  delay(880);  // 800 milli seconds delay  for each second. The rest 200 milli seconds is taken by the p10 diplay functions
 }
