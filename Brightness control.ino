@@ -13,6 +13,7 @@ LedP10 myled;
 
 void setup() 
 {
+    Serial.begin(9600);
     myled.init(3,4,8,9 ,1);
 }
 void loop() 
@@ -23,5 +24,6 @@ void loop()
    }
    myled.showmsg_single_static(num1,0);
    num1+=1;
+   Serial.println(num);
    delay(500);
 }
