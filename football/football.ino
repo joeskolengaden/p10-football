@@ -16,7 +16,7 @@
 #include <TimerOne.h>
 #include"SPI.h"
 #include <ledP10.h>
-#include <String.h>
+#include <String.h> //header files for string operations
 
 LedP10 myled;
 
