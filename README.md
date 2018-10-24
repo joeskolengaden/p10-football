@@ -1,5 +1,5 @@
 # p10-football
-football timer using arduino and  P10 led panel display.
+Football timer using arduino and  P10 led panel display.
 
 This code can be used only with ordinary P10 led pannels . The library does not support SMD type led pannels due to scan rete differences.
 
