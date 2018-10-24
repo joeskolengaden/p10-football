@@ -3,7 +3,7 @@ football timer using arduino and  P10 led panel display.
 
 This code can be used only with ordinary P10 led pannels . The library does not support SMD type led pannels due to scan rete differences.
 
-football.ino code could be used to run a timmer for football from 0:0 to infinity till the power is turned off.
+football.ino code could be used to run a timer for football from 0:0 to infinity till the power is turned off.
 football_twoHalfs.ino code could be used to put up two halfs of the match . The first half stats from 0:0 and goes on till the power is turned off. The second half starts from 30:0 and goes on untill the power is turned off
 
 
@@ -40,7 +40,7 @@ Open arduino IDE. (You need to reopen it after installing the LedP10 library).
 
 In Arduino IDE, goto File > Examples > LedP10
 
-You will find a few example program to demonstrate the usage of our library.
+You will find a few example programs to demonstrate the usage of our library.
 
 Build your own project by modifying these examples in the way you want.
 
