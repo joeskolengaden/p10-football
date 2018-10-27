@@ -49,3 +49,5 @@ Build your own project by modifying these examples in the way you want.
 
 # This code repo is powered by MOTIFY.IN
 more details and functionalities will be added soon
+
+#Main Features
