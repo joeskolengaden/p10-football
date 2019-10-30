@@ -10,6 +10,7 @@ In this example brightness reduces when counter 'num1' reaches value of 50.
 #include "ledP10.h"
 int num1=0;
 LedP10 myled;
+//hi
 
 void setup() 
 {
