@@ -5,6 +5,8 @@ this function can be called anytime after or before calling any other function o
 In this example brightness reduces when counter 'num1' reaches value of 50.
 */
 
+#SWDQWD
+
 #include "TimerOne.h"
 #include "SPI.h"
 #include "ledP10.h"
