@@ -1,4 +1,4 @@
-# p10-football
+# p10-_football
 
 football timer using arduino and  P10 led panel display.
 
