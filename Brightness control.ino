@@ -14,7 +14,7 @@ LedP10 myled;
 void setup() 
 {
     Serial.begin(9600);
-    myled.init(3,4,8,9 ,1);
+    myled.init(3,4,8,9,1);
 }
 void loop() 
 {
