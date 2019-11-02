@@ -2,7 +2,7 @@
 
 this function can be called anytime after or before calling any other function of LedP10 library. 
 
-In this example brightness reduces when counter 'num1' reaches value of 50.
+In this example brightness reduces when counter 'num1' reaches value of 50rtdyg.
 */
 
 #include "TimerOne.h"
