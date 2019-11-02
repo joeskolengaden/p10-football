@@ -5,7 +5,7 @@
 #include "TimerOne.h"
 #include "SPI.h"
 #include "LedP10.h"
- 
+ ///
 LedP10 myled;
 void setup()
 {
