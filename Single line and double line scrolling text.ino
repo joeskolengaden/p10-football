@@ -6,7 +6,7 @@ for message, pointer to a character string can be passed. For continuously runni
 
 
 For second function-showmsg_double_scroll, there would be 7 arguments, 2 for messages, two for no. of times of message scrolling, two for speed, and last one for font. 
-
+ngugghvghvhc
 Specification being same as for single scrolling function, except only one font id provided for double scrolling and it's value should be 0.*/
  
 #include "TimerOne.h"
